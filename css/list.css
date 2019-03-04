@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* header */
+.header{ width:100%; height:50px; background:#111111;}
+.header .w980{ width:980px; background:#111111; margin:auto;}
+.header ul{}
+.header ul li{ float:left; width:90px; background:url(images2/arrow2.jpg) no-repeat right center; color:#FFF;  height:50px; line-height:50px; text-align:center; position:relative;}
+.header ul li ul{ display:none;}
+.header ul li:hover{ background:#999;}
+.header ul li:hover ul{ display:block; position:absolute; z-index:10;}
+.header ul li ul li{ background:rgb(0,102,255); float:left; width:90px; height:50px; line-height:50px;}
+.header ul li ul li:hover{ background:rgb(0,0,255)}
+.header ul li a{ color:#FFF; text-decoration:none;}
+.header ul li a:hover{ color:#FF0; text-decoration:none;}
+.header 0l{}
+.header ol li{ float:right; width:100px; background:url(images2/pic_2.jpg) no-repeat left center; color:#FFF;  height:50px; line-height:50px; text-align:center;}
+.nav{ width:100%; height:150px; background:#2D221C;; position:relative;}
+.tiao{ width:100%; height:46px; position:absolute; bottom:0;}
+.tiao ul{}
+.tiao ul li{ width:100px; height:46px; line-height:46px; float:left;  text-align:center; color:#FFF; font-size:16px;}
+.tiao ul li a:hover{ color:#FF0; text-decoration:none;}
+.tiao a{ color:#FFF;}
+.pot1{ width:115px; height:76px; position:absolute; left:150px; top:10px;}
+.pot2{ width:100px; height:30px; position:absolute; left:275px; top:40px;}
+.pot3{ width:300px; height:35px; position:absolute; right:300px; top:40px; background:url(images2/pic_1.jpg) no-repeat 10px 8px #473B34;}
+.input{ width:250px; height:35px; line-height:35px; float:right; background:#483B33; color:#C9C9C9; border:0;}
+.btn{ position:absolute; right: 225px; top:45px; background:url(images2/13.gif) no-repeat; width:50px; height:24px; border:0; color:#FFF; font-size:14px;}
+.pagebody{ width:980px; margin:auto;}
+.pagebody a{ color:#000; text-decoration:none;}
+.pagebody a:hover{ color:#F00; text-decoration:underline;}
+.banner{ width:980px; margin:10px auto;}
+.banner1{ width:980px; margin:10px 0 0 0;}
+.list{ width:720px; height:383px; position:relative;}
+.tit{ width:720px; height:50px; line-height:50px; position:absolute; bottom:0; left:0;background:rgba(0,0,0,0.5); font-size:18px; text-align:center;}
+.tit a{ color:#FFF;}
+.box1{ width:220px; height:164px; position:relative;}
+.bg{ width:220px; height:164px; position:absolute; left:0; top:0;background:rgba(0,0,0,0.1);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000);}
+ .box1:hover .bg{ display:none;}
+.list1{ width:248px; border:solid 1px #E0E0E0;}
+.list11{ width:250px;}
+.list2{ width:250px; border-bottom:solid 2px #E0E0E0;}
+.pic{ margin:9px 5px; width:105px;}
+.text{ margin:0 5px; width:120px;}
+.text2{ width:250px; text-align:center; border-bottom:1px solid #F5F5F5;}
+.text2 ul{}
+.text2 ul li{ line-height:28px;}
+.list3{width:978px; margin:10px auto; border:1px solid #E4E4E4; border-top:2px solid #888888;}
+.list4{width:980px; height:120px; margin:20px auto; border:1px solid #E4E4E4; box-shadow:3px 3px 3px #666666;}
+.border1{ background:url(images2/arrow.jpg) no-repeat right center; border-top:solid 3px #000000; width:100px; text-align:center; font-size:16px; line-height:40px; height:40px; }
+.pic1{widtn:180px; text-align:center; margin:0 20px;}
+.pic2{widtn:220px; text-align:center;}
+.copet{ width:199px; height:70px; background:#F8F8F8; text-align:center; font-size:18px; padding-top:50px; border-right:1px solid #E0E0E0;}
+.copet:hover{ opacity:0.5;}
+.media{ width:780px; height:120px; }
+.copy{ width:100%; height:100px; border-top:2px solid #000; overflow:hidden; }
+.copy .w980{ width:980px; height:100px; margin:auto;}
+.copy a{ color:#666;}
+.copy a:hover{ color:#000; text-decoration:none;}
+.copy1{ width:980px; margin-left:200px;}
+.copy1 ul{}
+.copy1 ul li{ background:url(images2/line.jpg) no-repeat right; width:80px; height:20px; line-height:20px; float:left; text-align:center; font-size:14px;}
+.top{ width:72px; height:94px; position:fixed; bottom:150px; right:0; text-align:center;}
+.top a{ color:#333; font-size:14px;}
+.top a:hover{ color:#F00; text-decoration:none; font-size:14px;}
